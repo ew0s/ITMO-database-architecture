@@ -1,0 +1,5 @@
+development:
+  dialect: postgres
+  datasource: dbname=itmo user=itmo password=qwerty123 sslmode=disable
+  dir: .
+  table: migrations

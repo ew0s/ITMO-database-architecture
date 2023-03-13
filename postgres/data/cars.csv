@@ -1,0 +1,16 @@
+rent_conditions_id,manufacturer,model,manufacture_year,engine_power,transmission,doors,passenger_capacity,description
+1,hyundai,solaris,2018,103,manual,4,5,Hyundai solaris is a good budget car for city and small journeys
+1,volkswagen,polo,2019,140,dual_clutch_robot,4,5,Volkswagen polo is a good budget car for city and small journeys
+1,kia,rio,2021,104,auto,4,5,Kia rio is a good budget car for city and small journeys
+1,toyota,probox,2017,98,cvt,5,5,Toyota probox is a spacious car for journey
+2,Opel,astra gtc,2008,156,one_clutch_robot,3,4,Opel astra gtc is a perfect old-time hothatch
+2,Nissan,quashqai,2019,140,cvt,5,5,Nissan quashqai is perfect daily crossover
+2,Nissan,quashqai,2018,135,auto,5,5,Nissan quashqai is perfect daily crossover
+3,Tesla,model 3,2019,350,cvt,4,4,Tesla model 3 is a good chance to try e-car
+3,Tesla,model X,2019,700,cvt,5,4,Tesla model X is a good chance to try luxury e-car
+4,BMW,320i,2018,273,auto,3,4,BMW 320i is an awesome compact coupe
+4,BMW,335i,2019,330,auto,3,4,BMW 335i is an awesome compact coupe
+4,BMW,M3,2020,460,auto,3,4,BMW M3 is an awesome compact coupe
+5,BMW,730i,2018,343,auto,4,4,BMW 730i is an awesome luxury sedan
+5,BMW,750i,2019,475,auto,4,4,BMW 750i is an awesome luxury sedan
+5,BMW,M7,2020,650,auto,4,4,BMW M7 is an awesome luxury sedan
