@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  itmo:
+    container_name: mongo_itmo
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_DATABASE: itmo
+      MONGO_INITDB_ROOT_USERNAME: itmo
+      MONGO_INITDB_ROOT_PASSWORD: qwerty123
+    ports:
+      - "27017:27017"

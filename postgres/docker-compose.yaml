@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+  itmo:
+    container_name: postgres_itmo
+    image: registry.gitlab.com/dalibo/postgresql_anonymizer:stable
+    environment:
+      POSTGRES_USER: itmo
+      POSTGRES_PASSWORD: qwerty123
+      PGDATA: /data/postgres
+    ports:
+      - "5432:5432"
