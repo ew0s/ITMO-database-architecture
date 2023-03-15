@@ -33,4 +33,17 @@ with x as (delete from only prices where id % 3 = 0 returning *) insert into pri
 with x as (delete from only prices where id % 3 = 1 returning *) insert into prices_2 select * from x;
 with x as (delete from only prices where id % 3 = 2 returning *) insert into prices_3 select * from x;
 
--- +migrate down
+-- +migrate Down
+drop trigger if exists partition_prices on prices;
+drop function if exists partition_for_prices();
+
+create table if not exists tmp_prices (like prices including all );
+truncate table tmp_prices;
+insert into tmp_prices (select * from prices);
+
+drop table if exists prices_3 cascade;
+drop table if exists prices_2 cascade;
+drop table if exists prices_1 cascade;
+
+insert into prices (select * from tmp_prices);
+
